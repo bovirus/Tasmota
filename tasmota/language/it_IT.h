@@ -28,7 +28,7 @@
  * Use online command StateText to translate ON, OFF, HOLD and TOGGLE.
  * Use online command Prefix to translate cmnd, stat and tele.
  *
- * Updated until v9.4.0.1 - Last update 28.05.2021
+ * Updated until v9.4.0.1 - Last update 18.06.2021
 \*********************************************************************/
 
 #define LANGUAGE_MODULE_NAME         // Enable to display "Module Generic" (ie Spanish), Disable to display "Generic Module" (ie English)
@@ -63,7 +63,7 @@
 #define D_BRIGHTLIGHT          "Luminoso"
 #define D_BSSID                "BSSId"
 #define D_BUTTON               "Pulsante"
-#define D_BY                   "di"                  // Written by me
+#define D_BY                   "(mod) di"            // Written by me
 #define D_BYTES                "Byte"
 #define D_CELSIUS              "Celsius"
 #define D_CHANNEL              "Canale"
@@ -171,7 +171,7 @@
 #define D_SUNSET               "Tramonto"
 #define D_TEMPERATURE          "Temperatura"
 #define D_TO                   "a"
-#define D_TOGGLE               "ON/OFF"
+#define D_TOGGLE               "Cambio stato ON/OFF"
 #define D_TOPIC                "Topic"
 #define D_TOTAL_USAGE          "Uso totale"
 #define D_TRANSMIT             "Trasmesso"
@@ -252,7 +252,7 @@
 #define D_RESTART_IN           "Riavvio tra"
 #define D_SECONDS              "secondi"
 #define D_DEVICE_WILL_RESTART  "Il dispositivo verrà riavviato tra pochi secondi"
-#define D_BUTTON_TOGGLE        "ON/OFF"
+#define D_BUTTON_TOGGLE        "Cambia stato relé ON/OFF"
 #define D_CONFIGURATION        "Impostazioni"
 #define D_INFORMATION          "Informazioni"
 #define D_FIRMWARE_UPGRADE     "Aggiorna firmware"
